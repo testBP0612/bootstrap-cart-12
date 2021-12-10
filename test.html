@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		input {
+			appearance: none;
+			border-radius: 50%;
+			width: 16px;
+			height: 16px;
+			border: 2px solid #999;
+			transition: 0.2s all linear;
+			margin-right: 5px;
+			position: relative;
+			top: 4px;
+		}
+
+		#color-red:checked {
+			border: 8px solid rgb(223, 34, 34);
+		}
+
+		#color-green:checked {
+			border: 8px solid rgb(140, 202, 39);
+		}
+
+		#color-blue:checked {
+			border: 8px solid rgb(6, 64, 223);
+		}
+	</style>
+</head>
+
+<body>
+	<p>show color when choice a radio button</p>
+
+	<div>
+		<!-- radio button必須要用相同名字才能同一組 -->
+		<input type="radio" id="color-red" name="test">
+		<label for="color-red">red</label>
+
+		<input type="radio" id="color-green" name="test">
+		<label for="color-green">green</label>
+
+		<input type="radio" id="color-blue" name="test">
+		<label for="color-blue">blue</label>
+	</div>
+
+
+
+</body>
+
+</html>

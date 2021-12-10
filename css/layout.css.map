@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,MADK,CACL,YAAY,CAAC;EACZ,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,eAAe,EAAE,IAAI;CAUrB;;AAdF,AAME,MANI,CACL,YAAY,CAKX,iBAAiB,CAAC;EACjB,KAAK,EAAE,QAAQ;CAMf;;AAbH,AASG,MATG,CACL,YAAY,CAKX,iBAAiB,AAGf,YAAY,CAAC;EACb,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,KAAK;CACZ",
+    "sources": [
+        "../scss/layout.scss"
+    ],
+    "names": [],
+    "file": "layout.css"
+}

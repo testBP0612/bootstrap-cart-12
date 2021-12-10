@@ -1,0 +1,11 @@
+// 檔案名稱最前面加底線(_)是一個特殊的規則，加上底線後，該 scss 就不會被編譯
+
+$decoration-color-purple: blueviolet;
+$decoration-color-red: #aa2256;
+
+// 使用 %(佔位符)作為開頭，就不會被 scss 編譯出來，除非使用 @extend 調用
+%mybtn {
+	padding: 8px 12px;
+	border: none;
+	border-radius: 10px;
+}
